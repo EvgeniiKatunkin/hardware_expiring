@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 def index(request):
-    """The main page of the fiscal_registrars application."""
+    """Главная страница с выбором типа оборудования для вывода в виде таблицы."""
     return HttpResponse("That's the only page")
