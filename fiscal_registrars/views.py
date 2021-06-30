@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 def index(request):
     """Главная страница с выбором типа оборудования для вывода в виде таблицы."""
-    return HttpResponse("Here will be the main page")
+    return HttpResponse("Here should be the main page")
